@@ -1,0 +1,43 @@
+Here's a list of some common algorithms that can be applied to arrays:
+
+Searching Algorithms:
+
+Linear Search
+Binary Search (for sorted arrays)
+Sorting Algorithms:
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Counting Sort
+Radix Sort
+Array Manipulation Algorithms:
+
+Reversing an array
+Rotating an array
+Shuffling an array
+Removing duplicates from an array
+Finding the intersection, union, or difference of two arrays
+Subset Generation Algorithms:
+
+Generating all subsets of an array
+Generating all permutations of an array
+Sum and Product Related Algorithms:
+
+Finding the sum of elements in an array
+Finding the product of elements in an array
+Finding the maximum subarray sum (Kadane's algorithm)
+Searching for Specific Patterns:
+
+Finding peaks and valleys in an array
+Finding local minima or maxima
+Finding the majority element (Boyer-Moore Voting Algorithm)
+Other Algorithms:
+
+Finding the kth largest/smallest element in an array (using techniques like quickselect or binary search)
+Sliding window algorithms (e.g., finding the maximum sum subarray of fixed size)
+Two-pointer technique (e.g., finding pairs with a given sum)
+These are just some examples, and there are many more algorithms and techniques that can be applied to arrays depending on the specific problem you are trying to solve.
