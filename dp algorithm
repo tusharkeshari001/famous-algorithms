@@ -1,0 +1,48 @@
+Dynamic programming (DP) is a powerful technique used to solve optimization problems by breaking them down into simpler subproblems and storing the solutions to those subproblems to avoid redundant computations. Here's a list of some common dynamic programming algorithms:
+
+1. **Fibonacci Sequence**:
+   - Classic example of dynamic programming where the nth Fibonacci number is computed using the values of the (n-1)th and (n-2)th Fibonacci numbers.
+
+2. **Longest Common Subsequence (LCS)**:
+   - Finds the longest subsequence present in given two sequences.
+
+3. **Longest Increasing Subsequence (LIS)**:
+   - Finds the length of the longest subsequence in a given array that is strictly increasing.
+
+4. **0/1 Knapsack Problem**:
+   - Given a set of items, each with a weight and a value, determine the maximum value that can be obtained by selecting a subset of the items such that the total weight does not exceed a given capacity.
+
+5. **Coin Change Problem**:
+   - Finds the number of ways to make change for a given amount using a given set of coin denominations.
+
+6. **Matrix Chain Multiplication**:
+   - Finds the optimal way to multiply a sequence of matrices to minimize the number of scalar multiplications.
+
+7. **Edit Distance**:
+   - Finds the minimum number of operations required to convert one string into another, where the operations allowed are insertion, deletion, and substitution.
+
+8. **Subset Sum Problem**:
+   - Determines whether or not there exists a subset of a given set of integers that adds up to a given sum.
+
+9. **Maximum Subarray Sum**:
+   - Finds the contiguous subarray within a one-dimensional array of numbers that has the largest sum.
+
+10. **Rod Cutting Problem**:
+    - Finds the maximum revenue obtainable by cutting a rod into pieces and selling the pieces.
+
+11. **Minimum Cost Path**:
+    - Finds the minimum cost/path to reach the bottom-right corner of a given matrix from the top-left corner, where each cell represents a cost.
+
+12. **Partition Equal Subset Sum**:
+    - Determines whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
+
+13. **Minimum Coin Change**:
+    - Finds the minimum number of coins required to make a given amount of money using a given set of coin denominations.
+
+14. **Maximum Length of Pair Chain**:
+    - Finds the length of the longest chain of pairs in a given array of pairs.
+
+15. **Palindrome Partitioning**:
+    - Finds the minimum number of cuts needed to partition a string into substrings such that each substring is a palindrome.
+
+These are some of the most commonly encountered dynamic programming problems, each with its own variations and applications. DP algorithms are widely used in various fields such as computer science, operations research, and economics for solving optimization problems efficiently.
