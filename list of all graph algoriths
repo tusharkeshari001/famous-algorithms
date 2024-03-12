@@ -1,0 +1,53 @@
+Sure! Here's a list of some commonly used graph algorithms:
+
+1. **Breadth-First Search (BFS)**:
+   - Used for traversing or searching a graph or tree data structure.
+   - Finds the shortest path on an unweighted graph.
+
+2. **Depth-First Search (DFS)**:
+   - Used for traversing or searching a graph or tree data structure.
+   - Useful for topological sorting, finding connected components, and detecting cycles.
+
+3. **Dijkstra's Algorithm**:
+   - Finds the shortest path from a single source node to all other nodes in a weighted graph with non-negative edge weights.
+   - Used for solving the single-source shortest path problem.
+
+4. **Bellman-Ford Algorithm**:
+   - Finds the shortest path from a single source node to all other nodes in a weighted graph with negative edge weights.
+   - Handles graphs with negative edge weights, but is less efficient than Dijkstra's algorithm for non-negative weights.
+
+5. **Floyd-Warshall Algorithm**:
+   - Finds the shortest paths between all pairs of vertices in a weighted graph with positive or negative edge weights (but no negative cycles).
+   - Handles all pairs shortest path problem.
+
+6. **Prim's Algorithm**:
+   - Finds the minimum spanning tree (MST) of a connected, undirected graph.
+   - Builds the tree one vertex at a time by adding the cheapest edge from the tree to a vertex outside the tree.
+
+7. **Kruskal's Algorithm**:
+   - Finds the minimum spanning tree (MST) of a connected, undirected graph.
+   - Builds the MST by adding edges in ascending order of their weights, while avoiding cycles.
+
+8. **A* Search Algorithm**:
+   - A heuristic search algorithm that finds the shortest path between nodes in a graph.
+   - Uses a heuristic function to guide the search towards the goal node, making it more efficient than Dijkstra's algorithm for pathfinding in certain scenarios.
+
+9. **Depth-Limited Search (DLS)**:
+   - A variant of depth-first search that limits the depth of exploration.
+
+10. **Iterative Deepening Depth-First Search (IDDFS)**:
+    - A combination of depth-first search and breadth-first search that iteratively increases the depth limit of a depth-first search until the goal node is found.
+
+11. **Bidirectional Search**:
+    - Simultaneously performs two breadth-first searches, one from the start node and one from the goal node, until the searches meet in the middle.
+
+12. **Topological Sorting**:
+    - Arranges the nodes of a directed graph into a linear order such that for every directed edge uv from vertex u to vertex v, u comes before v in the order.
+
+13. **Strongly Connected Components (SCC)**:
+    - Identifies sets of vertices in a directed graph where each vertex is reachable from every other vertex in the same set.
+
+14. **Biconnected Components**:
+    - Identifies maximal biconnected subgraphs in an undirected graph.
+
+These are some of the most commonly used graph algorithms, each serving different purposes in graph theory and applications.
